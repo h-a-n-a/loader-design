@@ -25,7 +25,7 @@ async function load(url, context, next) {
       })
     ).code;
     return {
-      format: 'module'
+      format: 'module',
       source: code,
       shortCircuit: true,
     };
